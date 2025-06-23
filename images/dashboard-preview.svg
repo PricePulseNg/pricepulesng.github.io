@@ -10,25 +10,32 @@
     
     <!-- Quick Stats -->
     <g transform="translate(40, 160)">
-        <rect width="240" height="120" rx="10" fill="white"/>
+        <rect width="160" height="120" rx="10" fill="white"/>
         <text x="20" y="30" font-family="Poppins" font-size="14" fill="#6b7280">Total Products</text>
         <text x="20" y="60" font-family="Poppins" font-size="28" fill="#1e40af">8,500+</text>
         <text x="20" y="90" font-family="Poppins" font-size="12" fill="#6b7280">Commodities tracked</text>
     </g>
     
-    <g transform="translate(320, 160)">
-        <rect width="240" height="120" rx="10" fill="white"/>
+    <g transform="translate(220, 160)">
+        <rect width="160" height="120" rx="10" fill="white"/>
         <text x="20" y="30" font-family="Poppins" font-size="14" fill="#6b7280">Active Markets</text>
         <text x="20" y="60" font-family="Poppins" font-size="28" fill="#1e40af">774</text>
         <text x="20" y="90" font-family="Poppins" font-size="12" fill="#6b7280">Local government areas</text>
     </g>
     
-    <g transform="translate(600, 160)">
-        <rect width="240" height="120" rx="10" fill="white"/>
+    <g transform="translate(420, 160)">
+        <rect width="160" height="120" rx="10" fill="white"/>
         <text x="20" y="30" font-family="Poppins" font-size="14" fill="#6b7280">Data Points</text>
         <text x="20" y="60" font-family="Poppins" font-size="28" fill="#1e40af">1.2M+</text>
         <text x="20" y="75" font-family="Poppins" font-size="12" fill="#6b7280">Daily price updates</text>
         <text x="20" y="90" font-family="Poppins" font-size="12" fill="#6b7280">30-day history</text>
+    </g>
+    
+    <g transform="translate(620, 160)">
+        <rect width="160" height="120" rx="10" fill="white"/>
+        <text x="20" y="30" font-family="Poppins" font-size="14" fill="#6b7280">API Requests</text>
+        <text x="20" y="60" font-family="Poppins" font-size="28" fill="#1e40af">25K+</text>
+        <text x="20" y="90" font-family="Poppins" font-size="12" fill="#6b7280">Monthly API calls</text>
     </g>
     
     <!-- Price Overview -->
