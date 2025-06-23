@@ -8,6 +8,9 @@
     <text x="60" y="80" font-family="Poppins" font-size="28" fill="white">PricePulse Dashboard</text>
     <text x="60" y="110" font-family="Poppins" font-size="16" fill="white">Real-time market intelligence</text>
     
+    <!-- Horizontal Divider -->
+    <rect x="40" y="140" width="720" height="2" fill="#e5e7eb" rx="1"/>
+    
     <!-- Quick Stats -->
     <g transform="translate(40, 160)">
         <rect width="160" height="120" rx="10" fill="white"/>
@@ -89,24 +92,27 @@
         <text x="250" y="125" font-family="Poppins" font-size="10" fill="#6b7280">Enugu</text>
     </g>
     
+    <!-- Horizontal Divider -->
+    <rect x="40" y="530" width="720" height="2" fill="#e5e7eb" rx="1"/>
+    
     <!-- Action Buttons -->
-    <g transform="translate(40, 540)">
-        <rect width="160" height="40" rx="8" fill="#1e40af"/>
-        <text x="20" y="30" font-family="Poppins" font-size="14" fill="white">Set Price Alert</text>
+    <g transform="translate(40, 550)">
+        <rect width="160" height="44" rx="12" fill="#1e40af"/>
+        <text x="20" y="28" font-family="Poppins" font-size="16" fill="white">Set Price Alert</text>
     </g>
     
-    <g transform="translate(220, 540)">
-        <rect width="160" height="40" rx="8" fill="#10b981"/>
-        <text x="20" y="30" font-family="Poppins" font-size="14" fill="white">Download Report</text>
+    <g transform="translate(220, 550)">
+        <rect width="160" height="44" rx="12" fill="#10b981"/>
+        <text x="20" y="28" font-family="Poppins" font-size="16" fill="white">Download Report</text>
     </g>
     
-    <g transform="translate(400, 540)">
-        <rect width="160" height="40" rx="8" fill="#f3f4f6"/>
-        <text x="20" y="30" font-family="Poppins" font-size="14" fill="#1e40af">Export CSV</text>
+    <g transform="translate(420, 550)">
+        <rect width="160" height="44" rx="12" fill="#f3f4f6" stroke="#1e40af" stroke-width="1"/>
+        <text x="20" y="28" font-family="Poppins" font-size="16" fill="#1e40af">Export CSV</text>
     </g>
     
-    <g transform="translate(580, 540)">
-        <rect width="160" height="40" rx="8" fill="#f3f4f6"/>
-        <text x="20" y="30" font-family="Poppins" font-size="14" fill="#1e40af">Share</text>
+    <g transform="translate(620, 550)">
+        <rect width="160" height="44" rx="12" fill="#f3f4f6" stroke="#1e40af" stroke-width="1"/>
+        <text x="20" y="28" font-family="Poppins" font-size="16" fill="#1e40af">Share</text>
     </g>
 </svg>
