@@ -27,7 +27,8 @@
         <rect width="240" height="120" rx="10" fill="white"/>
         <text x="20" y="30" font-family="Poppins" font-size="14" fill="#6b7280">Data Points</text>
         <text x="20" y="60" font-family="Poppins" font-size="28" fill="#1e40af">1.2M+</text>
-        <text x="20" y="90" font-family="Poppins" font-size="12" fill="#6b7280">Daily price updates</text>
+        <text x="20" y="75" font-family="Poppins" font-size="12" fill="#6b7280">Daily price updates</text>
+        <text x="20" y="90" font-family="Poppins" font-size="12" fill="#6b7280">30-day history</text>
     </g>
     
     <!-- Price Overview -->
@@ -64,17 +65,21 @@
     
     <!-- Map Points -->
     <g transform="translate(440, 350)">
-        <circle cx="60" cy="60" r="6" fill="#1e40af"/>
-        <text x="70" y="65" font-family="Poppins" font-size="10" fill="#6b7280">Lagos</text>
+        <!-- Lagos (SW) -->
+        <circle cx="60" cy="160" r="6" fill="#1e40af"/>
+        <text x="70" y="165" font-family="Poppins" font-size="10" fill="#6b7280">Lagos</text>
         
-        <circle cx="180" cy="120" r="6" fill="#1e40af"/>
-        <text x="190" y="125" font-family="Poppins" font-size="10" fill="#6b7280">Kano</text>
+        <!-- Kano (NE) -->
+        <circle cx="180" cy="60" r="6" fill="#1e40af"/>
+        <text x="190" y="65" font-family="Poppins" font-size="10" fill="#6b7280">Kano</text>
         
-        <circle cx="240" cy="180" r="6" fill="#1e40af"/>
-        <text x="250" y="185" font-family="Poppins" font-size="10" fill="#6b7280">Abuja</text>
+        <!-- Abuja (Center) -->
+        <circle cx="120" cy="100" r="6" fill="#1e40af"/>
+        <text x="130" y="105" font-family="Poppins" font-size="10" fill="#6b7280">Abuja</text>
         
-        <circle cx="120" cy="90" r="6" fill="#1e40af"/>
-        <text x="130" y="95" font-family="Poppins" font-size="10" fill="#6b7280">Enugu</text>
+        <!-- Enugu (SE) -->
+        <circle cx="240" cy="120" r="6" fill="#1e40af"/>
+        <text x="250" y="125" font-family="Poppins" font-size="10" fill="#6b7280">Enugu</text>
     </g>
     
     <!-- Action Buttons -->
