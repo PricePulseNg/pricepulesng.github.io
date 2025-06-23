@@ -98,21 +98,21 @@
     <!-- Action Buttons -->
     <g transform="translate(40, 550)">
         <rect width="160" height="44" rx="12" fill="#1e40af"/>
-        <text x="20" y="28" font-family="Poppins" font-size="16" fill="white">Set Price Alert</text>
+        <text x="80" y="26" font-family="Poppins" font-size="16" fill="white" text-anchor="middle">Set Price Alert</text>
     </g>
     
     <g transform="translate(220, 550)">
         <rect width="160" height="44" rx="12" fill="#10b981"/>
-        <text x="20" y="28" font-family="Poppins" font-size="16" fill="white">Download Report</text>
+        <text x="80" y="26" font-family="Poppins" font-size="16" fill="white" text-anchor="middle">Download Report</text>
     </g>
     
     <g transform="translate(420, 550)">
         <rect width="160" height="44" rx="12" fill="#f3f4f6" stroke="#1e40af" stroke-width="1"/>
-        <text x="20" y="28" font-family="Poppins" font-size="16" fill="#1e40af">Export CSV</text>
+        <text x="80" y="26" font-family="Poppins" font-size="16" fill="#1e40af" text-anchor="middle">Export CSV</text>
     </g>
     
     <g transform="translate(620, 550)">
         <rect width="160" height="44" rx="12" fill="#f3f4f6" stroke="#1e40af" stroke-width="1"/>
-        <text x="20" y="28" font-family="Poppins" font-size="16" fill="#1e40af">Share</text>
+        <text x="80" y="26" font-family="Poppins" font-size="16" fill="#1e40af" text-anchor="middle">Share</text>
     </g>
 </svg>
