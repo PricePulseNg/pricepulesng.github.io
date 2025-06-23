@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dashboard Background -->
+    <rect width="800" height="600" fill="#f3f4f6"/>
+    
+    <!-- Header -->
+    <rect x="40" y="40" width="720" height="100" rx="15" fill="#1e40af"/>
+    <text x="60" y="80" font-family="Poppins" font-size="28" fill="white">PricePulse Dashboard</text>
+    <text x="60" y="110" font-family="Poppins" font-size="16" fill="white">Real-time market intelligence</text>
+    
+    <!-- Quick Stats -->
+    <g transform="translate(40, 160)">
+        <rect width="240" height="120" rx="10" fill="white"/>
+        <text x="20" y="30" font-family="Poppins" font-size="16" fill="#6b7280">Total Products</text>
+        <text x="20" y="60" font-family="Poppins" font-size="32" fill="#1e40af">8,500+</text>
+        <text x="20" y="90" font-family="Poppins" font-size="14" fill="#6b7280">Commodities tracked</text>
+    </g>
+    
+    <g transform="translate(320, 160)">
+        <rect width="240" height="120" rx="10" fill="white"/>
+        <text x="20" y="30" font-family="Poppins" font-size="16" fill="#6b7280">Active Markets</text>
+        <text x="20" y="60" font-family="Poppins" font-size="32" fill="#1e40af">774</text>
+        <text x="20" y="90" font-family="Poppins" font-size="14" fill="#6b7280">Local government areas</text>
+    </g>
+    
+    <g transform="translate(600, 160)">
+        <rect width="240" height="120" rx="10" fill="white"/>
+        <text x="20" y="30" font-family="Poppins" font-size="16" fill="#6b7280">Data Points</text>
+        <text x="20" y="60" font-family="Poppins" font-size="32" fill="#1e40af">1.2M+</text>
+        <text x="20" y="90" font-family="Poppins" font-size="14" fill="#6b7280">Daily price updates</text>
+    </g>
+    
+    <!-- Price Overview -->
+    <rect x="40" y="300" width="360" height="240" rx="15" fill="white"/>
+    <text x="60" y="325" font-family="Poppins" font-size="22" fill="#1e40af">Price Overview</text>
+    
+    <!-- Price Cards -->
+    <g transform="translate(60, 350)">
+        <rect width="160" height="180" rx="10" fill="#f3f4f6"/>
+        <text x="20" y="30" font-family="Poppins" font-size="18" fill="#6b7280">Rice - Premium</text>
+        <text x="20" y="60" font-family="Poppins" font-size="28" fill="#1e40af">₦3,500/kg</text>
+        <text x="20" y="90" font-family="Poppins" font-size="14" fill="#6b7280">Lagos Market</text>
+        <text x="20" y="120" font-family="Poppins" font-size="14" fill="#10b981">+2.5% last 7 days</text>
+        <path d="M20 150 Q40 170, 60 150 Q80 170, 100 150 Q120 170, 140 150" 
+              stroke="#1e40af" stroke-width="2" fill="none"/>
+    </g>
+    
+    <g transform="translate(240, 350)">
+        <rect width="160" height="180" rx="10" fill="#f3f4f6"/>
+        <text x="20" y="30" font-family="Poppins" font-size="18" fill="#6b7280">Maize - White</text>
+        <text x="20" y="60" font-family="Poppins" font-size="28" fill="#1e40af">₦2,800/kg</text>
+        <text x="20" y="90" font-family="Poppins" font-size="14" fill="#6b7280">Kano Market</text>
+        <text x="20" y="120" font-family="Poppins" font-size="14" fill="#ef4444">-1.2% last 7 days</text>
+        <path d="M20 150 Q40 130, 60 150 Q80 130, 100 150 Q120 130, 140 150" 
+              stroke="#1e40af" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Map Section -->
+    <rect x="420" y="300" width="360" height="240" rx="15" fill="white"/>
+    <text x="440" y="325" font-family="Poppins" font-size="22" fill="#1e40af">Market Locations</text>
+    
+    <!-- Map -->
+    <rect x="440" y="350" width="320" height="180" rx="10" fill="rgba(229, 231, 235, 0.2)"/>
+    
+    <!-- Map Points -->
+    <g transform="translate(440, 350)">
+        <circle cx="60" cy="60" r="8" fill="#1e40af"/>
+        <text x="70" y="65" font-family="Poppins" font-size="12" fill="#6b7280">Lagos</text>
+        
+        <circle cx="180" cy="120" r="8" fill="#1e40af"/>
+        <text x="190" y="125" font-family="Poppins" font-size="12" fill="#6b7280">Kano</text>
+        
+        <circle cx="240" cy="180" r="8" fill="#1e40af"/>
+        <text x="250" y="185" font-family="Poppins" font-size="12" fill="#6b7280">Abuja</text>
+        
+        <circle cx="120" cy="90" r="8" fill="#1e40af"/>
+        <text x="130" y="95" font-family="Poppins" font-size="12" fill="#6b7280">Enugu</text>
+    </g>
+    
+    <!-- Action Buttons -->
+    <rect x="40" y="560" width="720" height="40" rx="15" fill="#1e40af"/>
+    <text x="60" y="585" font-family="Poppins" font-size="18" fill="white">Set Price Alert</text>
+    
+    <rect x="40" y="520" width="160" height="30" rx="8" fill="#10b981"/>
+    <text x="60" y="540" font-family="Poppins" font-size="14" fill="white">Download Report</text>
+</svg>

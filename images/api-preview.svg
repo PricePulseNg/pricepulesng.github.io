@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- API Background -->
+    <rect width="800" height="600" fill="#f3f4f6"/>
+    
+    <!-- Header -->
+    <rect x="40" y="40" width="720" height="100" rx="15" fill="#2563eb"/>
+    <text x="60" y="80" font-family="Poppins" font-size="28" fill="white">PricePulse API</text>
+    <text x="60" y="110" font-family="Poppins" font-size="16" fill="white">Real-time commodity price data</text>
+    
+    <!-- API Endpoints -->
+    <rect x="40" y="160" width="720" height="200" rx="15" fill="white"/>
+    <text x="60" y="185" font-family="Poppins" font-size="22" fill="#2563eb">API Endpoints</text>
+    
+    <!-- Endpoint Cards -->
+    <rect x="60" y="210" width="340" height="120" rx="10" fill="#f3f4f6"/>
+    <text x="70" y="235" font-family="Poppins" font-size="18" fill="#6b7280">GET /prices</text>
+    <text x="70" y="260" font-family="Poppins" font-size="16" fill="#6b7280">Get commodity prices</text>
+    <text x="70" y="285" font-family="Poppins" font-size="14" fill="#6b7280">/api/v1/prices</text>
+    
+    <rect x="420" y="210" width="340" height="120" rx="10" fill="#f3f4f6"/>
+    <text x="430" y="235" font-family="Poppins" font-size="18" fill="#6b7280">GET /trends</text>
+    <text x="430" y="260" font-family="Poppins" font-size="16" fill="#6b7280">Get price trends</text>
+    <text x="430" y="285" font-family="Poppins" font-size="14" fill="#6b7280">/api/v1/trends</text>
+    
+    <!-- Response Example -->
+    <rect x="40" y="360" width="720" height="200" rx="15" fill="white"/>
+    <text x="60" y="385" font-family="Poppins" font-size="22" fill="#2563eb">Sample Response</text>
+    <text x="60" y="420" font-family="Poppins" font-size="14" fill="#6b7280">{
+    "commodity": "Rice",
+    "price": 3500,
+    "currency": "NGN",
+    "location": "Lagos",
+    "timestamp": "2025-06-23T10:00:00+01:00"
+}</text>
+    
+    <!-- Integration Button -->
+    <rect x="40" y="560" width="720" height="40" rx="15" fill="#2563eb"/>
+    <text x="60" y="585" font-family="Poppins" font-size="18" fill="white">Get API Key</text>
+</svg>

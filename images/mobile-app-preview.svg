@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="800" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Phone Frame -->
+    <rect x="40" y="40" width="320" height="720" rx="40" fill="#1f2937"/>
+    
+    <!-- App Header -->
+    <rect x="45" y="45" width="310" height="80" rx="20" fill="#2563eb"/>
+    <text x="60" y="75" font-family="Poppins" font-size="24" fill="white">PricePulse</text>
+    
+    <!-- Search Bar -->
+    <rect x="50" y="120" width="300" height="60" rx="25" fill="#f3f4f6"/>
+    <text x="60" y="155" font-family="Poppins" font-size="16" fill="#6b7280">Search commodities...</text>
+    
+    <!-- Price Card -->
+    <rect x="50" y="190" width="300" height="140" rx="15" fill="#f3f4f6"/>
+    <text x="60" y="215" font-family="Poppins" font-size="20" fill="black">Rice</text>
+    <text x="60" y="240" font-family="Poppins" font-size="14" fill="#6b7280">Current Price</text>
+    <text x="60" y="270" font-family="Poppins" font-size="24" fill="#2563eb">₦3,500/kg</text>
+    <text x="60" y="300" font-family="Poppins" font-size="14" fill="#10b981">+2.5% last 7 days</text>
+    
+    <!-- Trend Chart -->
+    <path d="M60 340 Q80 360, 100 340 Q120 360, 140 340 Q160 360, 180 340 Q200 360, 220 340" 
+          stroke="#2563eb" stroke-width="2" fill="none"/>
+    
+    <!-- Location -->
+    <text x="60" y="380" font-family="Poppins" font-size="14" fill="#6b7280">Lagos Market</text>
+    
+    <!-- Action Buttons -->
+    <rect x="60" y="420" width="120" height="50" rx="10" fill="#2563eb"/>
+    <text x="80" y="455" font-family="Poppins" font-size="14" fill="white">Set Alert</text>
+    
+    <rect x="220" y="420" width="120" height="50" rx="10" fill="#10b981"/>
+    <text x="240" y="455" font-family="Poppins" font-size="14" fill="white">Track Price</text>
+</svg>
